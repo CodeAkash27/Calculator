@@ -1,7 +1,7 @@
 
-@media screen and (max-width:599px ){ 
+@media screen and (max-width:768px ){ 
     .calculator{
-       width: 30vw;
+       width: 50vw;
        height: 70vh;
       font-size: 12px;
       gap: 2px;
@@ -11,7 +11,5 @@
     .calculator>.form-group>button{
         width: 25%;
         font-size: 15px;
-        
-
     }
 }
