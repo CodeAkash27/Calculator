@@ -1,0 +1,50 @@
+body{
+    background-image: url("./IMG-20250220-WA0063.jpg");
+}
+.calculator{
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: auto;
+    top: 5px;
+    position: relative;
+    display: grid;
+    gap: 5px;
+    padding: 20px;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+.calculator>.form-group>button{
+    width: 25%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.calculator>.form-group>input{
+    width: 100%;
+    border: 1px solid gray;
+    text-align: end;
+    outline: none;
+    font-size: 40px;
+}
+.equal{
+    background-color: blue;
+    color: white;
+}
+.calculator>.form-group>button:hover{
+    background-color: gray;
+}
+.calculator>.form-group>.equal:hover{
+    background-color: rgb(3, 129, 187);
+    font-size: 20px;
+}
+h1{
+    color: white
+    
+}
