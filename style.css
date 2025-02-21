@@ -6,10 +6,16 @@
       font-size: 12px;
       gap: 2px;
       padding: 15px;
+      top: 20px;
     }
     
     .calculator>.form-group>button{
         width: 20%;
-        font-size: 15px;
+        height: 60%;
+        font-size: 10px;
+    }
+    .calculator>.form-group>input{
+        height: 70%;
+        font-size: 30px;
     }
 }
